@@ -30,16 +30,57 @@ body{
     background-color: burlywood;
 }
 
-.container{
+.container{ 
+    height: 300px;
+    
+    
+  
+}
+
+.list{
     display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.btn-up{
+    width: 50px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    color: aqua;
+    background-color: black;
+    border-radius: 10px;
+
+
 }
 
 img{
     max-width: 100%;
         max-height: 100%;
+        display: block;
+        border-radius: 25%;
+}
+
+.div-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 25%;
+}
+
+.div-pos{
+    position: relative;
+    border-radius: 25%;
+}
+
+.pos-abs{
+    position: absolute;
+    top: 5px;
+left: 10px;
+
 }
 
 form {
